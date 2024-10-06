@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.container {
+    max-width: 1240px;
+    margin: 0 auto;
+    
+}
+
+button, select {
+    margin: 10px 0;
+    padding: 10px;
+
+}
+.vvod{
+    width: 100px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+#matrixContainer {
+    margin-top: 20px;
+}
+@media (min-width: 320px) and (max-width: 480px){
+h1{
+    font-size: 32px;
+}
+body{
+    padding: 5px;
+}
+.vvod{
+    width: 70px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+}
